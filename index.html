@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="i.css" rel="stylesheet"/>
+</head>
+<body>
+    <script src="i.js"></script>
+    <p id="menu"></p>
+    <nav>
+        <li>Font size</li>
+        <li>Background</li>
+        <li><a href="https://athfix.github.io/AttributesAsStart/">Back</a></li>
+        <li>Next</li>
+        <li><a href="https://drive.google.com/file/d/1se41Xpb6Njc8huIhm6tYwOznK60184ji/view?usp=sharing">PDF version</a></li>
+    </nav>
+    <div id="fs">
+        <li>16</li><li>18</li><li>20</li>
+    </div>
+    <div id="bg">
+        <li></li><li></li>
+    </div>
+    <div id="block">
+        <h1>Animation in HTML5</h1>
+        <p id="firstIntro">Well you have watched many website whether it might be a
+            news platform, educational or e-commerce among of them it
+            is common that all of those use menu bar, navigation, events
+            on scrolling infact there are icons, images which are designed
+            with specific chapters of the HTML which are known as SVG
+            (scalable vector graphics)
+           
+            <img src="D:\fourthHTML\IMG_20210929_204502.jpg" width="90%"/>
+        </p>
+
+        <h1>SCALABLE VECTOR GRAPHICS</h1>
+        <p>Well these are just like other elements in HTML document like
+            header, navigation in which the arts, which are created done
+            with vector and these are resolution independent and we
+            often use them in building the icons, images dedicated for
+            something in the website and these are not used for creating
+            any 3D art nor for moving vector therefore not used in any of
+            the game development projects.</p>
+         <h1>Path</h1>
+        <p id="secIntro">
+            Well this is the child tag present in the SVG tag dedicated for
+            creating a perfect geometry with shape and size as its format.
+            Well here are the some attributes present in the Path tag that
+            decides the geometry like M(move to), L(line to), H(horizontal
+            line to), V(vertical line to), C(curve to), S(Smooth line to), Q(
+            quadratic beizer curve), T(smooth quadratic beizer curve),
+            A(elliptical curve), Z(Close path).<br/>  
+              <img src="D:\fourthHTML\IMG_20210929_204523.jpg" width="100%"/>
+        </p>
+
+        <h1>Drawing the shapes</h1>
+        <p>Using the SVG we can able to draw as much of the geometry
+            as we can think well built in shapes include path, boxes, circle,
+            rectangle, square , line, polyline, quadrilateral, ellipse,
+            polygon.</p>
+            <h1>Drawing the circle</h1>
+        <p id="thiIntro">
+            To draw the circle we must use SVG tag as parent tag to it and
+then we use width and height attribute for the SVG to access
+the amount of some for the geometry and then we use Circle
+tag with <b>cx, cy, r, fill</b> as attribute well cx is the distance of circle
+along x axis with left end border of SVG and cy for distance
+along y axis and r for the radius of the circle, fill for the
+purpose of color filling and that’s all we have a circle.
+  <img src="D:\fourthHTML\IMG_20210929_204555.jpg" width="100%"/>
+       
+<h1>Drawing the rectangle</h1>
+<p id="fouIntro">
+    To draw the rectangle we must use SVG tag as parent tag to it
+and then we use width and height attribute for the SVG to
+access the amount of some for the geometry the we have rect
+tag inside we have width and height to mention about the
+dimension of rectangle fill to fill the color and x ,y for the
+purpose to mention the distance of rectangle from x and y
+axis inside the SVG element.
+<img src="D:\fourthHTML\IMG_20210929_204608.jpg"/>
+</p>
+<h1>Drawing the Line</h1>
+<p>To draw the line we must use SVG tag as parent tag to it and
+    then we use width and height attribute for the SVG to access
+    the amount of some for the geometry then we have x0,y0
+    attributes to mention the line origin and x2,y2 as end of the
+    line and in the style attribute we are with stroke for color of
+    line and stroke-linecap to mention about the shape that line
+    end has to be, stroke-width to mention about the width of the
+    line.
+<img src="D:\fourthHTML\IMG_20210929_204627.jpg"/></p>
+
+<h1>Drawing the polyline</h1>
+<p>To draw the polyline we must use SVG tag as parent tag to it
+    and then we use width and height attribute for the SVG to
+    access the amount of some for the geometry in the polyline
+    tag we are with style with stroke-linejoin which decide the
+    mode of line joining then stroke to define the color of svg and
+    then stroke-width to define the width of the element points to
+    mention about the axis of pointed geometry<br/>
+<img src="D:\fourthHTML\IMG_20210929_204648.jpg"/></p>
+<h1>Drawing the polygon</h1>
+<p>To draw the circle we must use SVG tag as parent tag to it and
+    then we use width and height attribute for the SVG to access
+    the amount of some for the geometry after which we have
+    use the polygon tag along with the attribute points to
+    mention about the axis then style to mention about the
+    styling the geometry.
+<img src="D:\fourthHTML\IMG_20210929_204726.jpg"/></p>
+<h1>Shape animation</h1>
+<h3>Rectangle movement</h3>
+<p>To draw the circle we must use SVG tag as parent tag to it and
+    then we use width and height attribute for the SVG to access
+    the amount of some for the geometry then we use rect tag
+    inside mention the required attributes to create the rectangle
+    then we use animate tag along with the attributeName, from
+    to mention about change, dur to mention about the duration
+    fill to mention about the color that should present before it
+    changes.
+<img src="D:\fourthHTML\IMG_20210929_204753.jpg"/></p>
+</div>
+</body>
+</html>
